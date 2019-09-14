@@ -20,7 +20,6 @@ yAll = yAll/ymax
 X = np.split(xAll, [6])[0]
 xPredicted = np.split(xAll, [6])[1]
 
-
 class Neural_Network:
     def __init__(self):
         self.inputSize = 2
